@@ -11,6 +11,9 @@
         }
         function onBtnDoWorkClick(){
             displayMessage("Work Started");
+            setTimeout(doActualWork);
+        }
+        function doActualWork(){
             doWork();
             displayMessage("Work Completd");
         }
