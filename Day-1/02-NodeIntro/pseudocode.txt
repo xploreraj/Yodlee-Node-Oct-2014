@@ -1,0 +1,19 @@
+parse the url
+if pathname is 'static resource'
+    if resouce exists 
+        serve the resource
+    else
+        '404
+else
+    if pathname is /calculator
+        extract info from url
+        invoke calculator with appropriate params
+        res.write calculator result
+    else
+      '404
+    
+
+static resource = all resources end with any of 'html','css','js','ico','png','gif','txt' etc
+
+calculator request ->
+    /calculator?operation=add&number1=100&number2=200

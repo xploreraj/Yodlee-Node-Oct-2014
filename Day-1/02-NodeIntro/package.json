@@ -1,0 +1,14 @@
+{
+  "name": "nodeIntroApp",
+  "version": "0.1.0",
+  "description": "A sample application for demonstrating node.js",
+  "main": "calculatorApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "Magesh K",
+  "license": "ISC"
+}
